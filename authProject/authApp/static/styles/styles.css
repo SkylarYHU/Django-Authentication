@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", system-ui;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.home-form {
+  margin-top: 10px;
+}
+
+.home-text,
+.login-text {
+  text-align: center;
+}
+
+.home-text p {
+  font-size: 22px;
+}
+
+button,
+.button {
+  background: #0095f6;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #007bbf;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
