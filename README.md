@@ -23,3 +23,10 @@ This is a user authentication project built using the Django framework, providin
 - Visit the registration page and create a new user.
 - Log in using the registered username and password.
 - Test the logout functionality.
+
+## Screenshots
+
+![Login Screenshot](images/Login_Screenshot.png)
+![Register Screenshot](images/Register_Screenshot.png)
+![Protected Screenshot](images/Protected_Screenshot.png)
+![Home Screenshot](images/Home_Screenshot.png)
